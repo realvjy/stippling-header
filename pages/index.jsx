@@ -1,3 +1,4 @@
+import Footer from "../components/footer";
 import Landing from "../components/landing";
 import styled from "styled-components";
 const Home = () => {

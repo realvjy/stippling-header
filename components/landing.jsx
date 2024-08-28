@@ -3,6 +3,7 @@ import Image from "next/image";
 import styled from "styled-components";
 import React, { useState, useEffect, useRef } from "react";
 import { Container } from "./ReusableStyles";
+import Footer from "./footer";
 
 export default function Landing() {
   const [position, setPosition] = useState({ x: 1, y: 1 });
@@ -78,12 +79,12 @@ export default function Landing() {
             />
           </Logo>
           <Content>
-            <h1>Creating stippling in Figma has never been easier</h1>
             <DotButton href="https://s.vjy.me/stippling">
               <img src="figma_icon.svg" />
               Install Now
             </DotButton>
           </Content>
+          <Footer />
         </HeadWrapper>
       </Container>
     </HeadSection>
